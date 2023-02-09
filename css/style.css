@@ -1,0 +1,44 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 25px;
+}
+
+body {
+	margin: 0;
+	width: calc(100vw - 25px);
+	height: 100vh;
+	display: block;
+	text-align: center;
+
+	background: rgb(151, 60, 255);
+	color: white;
+}
+
+.all {
+	margin-top: 300px;
+
+}
+
+input {
+	padding: 10px;
+	border: 0px;
+	outline: 0;
+	border-bottom: 2px solid rgba(255, 255, 255, 0.6);
+	background-color: transparent;
+	color: white;
+	text-align: center;
+	font-size: 22px;
+	transition: border-bottom 300ms ease-in-out;
+}
+
+p {
+	font-size: 16px;
+	color: #f9f9f9;
+}
+
+#output {
+	font-size: 30px;
+}
